@@ -1,0 +1,61 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  background-image: url(../img/background-darker.jpg);
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+form {
+  float: right;
+  margin: 20px 300px 0px 0px;
+}
+
+input {
+  margin: 0 7px;
+}
+
+label{
+    display: block;
+    color: white;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+    font-weight: lighter;
+
+  position: relative;
+
+  /* height: 30px; */
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+ label:hover{
+	color: #FFFFFF;
+}
+
+
+svg{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin: 60px auto 50px auto;
+    width: 70%;
+}
